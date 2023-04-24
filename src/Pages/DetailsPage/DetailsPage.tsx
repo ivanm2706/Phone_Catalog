@@ -82,7 +82,7 @@ export const DetailsPage: React.FC<Props> = ({
 
   useEffect(() => {
     fetchDetails();
-  }, []);
+  }, [idProduct]);
 
   if (isLoad) {
     return <Loader />;
